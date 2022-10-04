@@ -1,0 +1,28 @@
+section{
+    background:blue;
+}
+article {
+    background: yellow;
+}
+#cerclebrugge{
+    background: green;
+}
+#anderlecht{
+    position: relative;
+}
+/** Een absoluut element positioneert zich steeds tot zijn dichtste relative element. **/
+#logocercle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#logoclub{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#logorsca{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
